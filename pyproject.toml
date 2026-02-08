@@ -1,0 +1,24 @@
+[project]
+name = "signatures"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "albumentations>=2.0.8",
+    "lightning>=2.6.1",
+    "matplotlib>=3.10.8",
+    "onnx>=1.20.1",
+    "onnxslim>=0.1.84",
+    "pandas>=3.0.0",
+    "pillow>=12.1.0",
+    "pytorch-lightning>=2.6.1",
+    "pyyaml>=6.0.3",
+    "tensorboard>=2.20.0",
+    "torch>=2.10.0",
+    "torchmetrics>=1.8.2",
+    "torchvision>=0.25.0",
+    "ultralytics>=8.4.12",
+    "opencv-python>=4.5.0",
+    "click>=8.3.1",
+]
