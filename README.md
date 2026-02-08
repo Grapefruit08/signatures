@@ -71,6 +71,5 @@ This demonstrates the effectiveness of the pre-trained YOLO architecture for sig
 
 - **Configuration Management**: Replace hardcoded values in YOLO training with configuration loaded from YAML file for better maintainability and flexibility
 - **Inference Optimization**: Use ONNX Runtime for inference to improve performance and reduce dependencies
-- **Extended Training**: 
-* Train YOLO model for more epochs - with longer training
-* Augmentation techniques then could potentially help improve model performance without degrading results
+- **Extended Training**: Train YOLO model for more epochs - with longer training, augmentation techniques could potentially help improve model performance without degrading results
+- **Code Structure**: Better organize code files structure and project architecture for improved maintainability and modularity
