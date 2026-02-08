@@ -1,0 +1,2 @@
+model_zoo/**/*.onnx filter=lfs diff=lfs merge=lfs -text
+model_zoo/**/*.pt filter=lfs diff=lfs merge=lfs -text
