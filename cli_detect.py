@@ -212,9 +212,9 @@ def detect(
     Example:
         Example CLI usage:
         python cli_detect.py 
-        -i "dataset\dataset\signatures\9.jpg" 
+        -i "dataset/dataset/signatures/9.jpg" 
         -o "results" 
-        -m "yolov8n_signatures_non_augmented\weights\best.onnx" 
+        -m "model_zoo/yolo_non_augmented/best.onnx" 
         -c 0.25 --visualize
     """ 
    
@@ -233,3 +233,7 @@ def detect(
     else:
         click.echo("\nDetection failed!", err=True)
         sys.exit(1)
+
+
+if __name__ == "__main__":
+    detect()
