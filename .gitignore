@@ -17,3 +17,6 @@ yolo_signature_dataset/
 # experiments
 experiments/
 runs/
+
+# models
+yolov8n.pt
